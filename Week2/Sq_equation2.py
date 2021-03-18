@@ -1,8 +1,6 @@
 from math import sqrt
 
-a = float(input())
-b = float(input())
-c = float(input())
+a, b, c = float(input()), float(input()), float(input())
 if a == b == c == 0:
     print(3)
 elif a == 0 and b != 0:
